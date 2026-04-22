@@ -27,24 +27,44 @@
             border-bottom: 1px solid #444;
             padding-bottom: 10px;
         }
-        .stats-table {
+        .sales-table {
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
         }
-        .stats-table th, .stats-table td {
+        .sales-table th, .sales-table td {
             padding: 12px;
             text-align: left;
             border-bottom: 1px solid #333;
         }
-        .stats-table th {
+        .sales-table th {
             color: #ff69b4;
             text-transform: uppercase;
             font-size: 0.9em;
         }
-        .value {
+        .dollar-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .dollar-table th, .dollar-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+        .dollar-table th {
+            color: #ff69b4;
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+        .profit {
             font-family: 'Courier New', Courier, monospace;
             color: #00ff00;
+            font-weight: bold;
+        }
+        .loss {
+            font-family: 'Courier New', Courier, monospace;
+            color: #ff0000;
             font-weight: bold;
         }
         .award-list {
@@ -80,15 +100,15 @@
         </tr>
         <tr>
             <td>Total Income</td>
-            <td class="value">$163,786,603</td>
+            <td class="profit">$163,786,603</td>
         </tr>
         <tr>
             <td>Number of Customers</td>
-            <td class="value">454</td>
+            <td class="profit">454</td>
         </tr>
         <tr>
             <td>Items Sold</td>
-            <td class="value">22,765</td>
+            <td class="profit">22,765</td>
         </tr>
     </table>
 
@@ -100,19 +120,19 @@
         </tr>
         <tr>
             <td>Total Loss</td>
-            <td class="value">$1,702,117</td>
+            <td class="loss">$1,702,117</td>
         </tr>
         <tr>
             <td>Unique Buyers</td>
-            <td class="value">125</td>
+            <td class="loss">125</td>
         </tr>
         <tr>
             <td>Items Sold at $1</td>
-            <td class="value">177</td>
+            <td class="loss">177</td>
         </tr>
         <tr>
             <td>Average Worth</td>
-            <td class="value">$9,617</td>
+            <td class="loss">$9,617</td>
         </tr>
     </table>
 
